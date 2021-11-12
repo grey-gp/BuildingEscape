@@ -1,0 +1,123 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BuildingEscape (Debug)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscape Win64 Debug Build",
+            "program": "C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+            "args": [],
+            "cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BuildingEscape (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscape Win64 DebugGame Build",
+            "program": "C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+            "args": [],
+            "cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BuildingEscape (Development)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscape Win64 Development Build",
+            "program": "C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\Binaries\\Win64\\UnrealGame.exe",
+            "args": [],
+            "cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BuildingEscape (Shipping)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscape Win64 Shipping Build",
+            "program": "C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+            "args": [],
+            "cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BuildingEscape (Test)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscape Win64 Test Build",
+            "program": "C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+            "args": [],
+            "cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BuildingEscapeEditor (Debug)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscapeEditor Win64 Debug Build",
+            "program": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+            "args": [
+                "C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject"
+            ],
+            "cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BuildingEscapeEditor (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscapeEditor Win64 DebugGame Build",
+            "program": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+            "args": [
+                "C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject"
+            ],
+            "cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BuildingEscapeEditor (Development)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscapeEditor Win64 Development Build",
+            "program": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+            "args": [
+                "C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject"
+            ],
+            "cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "Generate Project Files",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+            "args": [
+                "-projectfiles",
+                "-vscode",
+                "-project=\"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject\"",
+                "-game",
+                "-engine"
+            ],
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+        }
+    ]
+}

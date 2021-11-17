@@ -1,12 +1,9 @@
 {
-    "configurations": [
-        {
-            "name": "BuildingEscapeEditor Editor Win64 Development (BuildingEscape)",
-            "intelliSenseMode": "msvc-x64",
-            "compileCommands": "C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape.json",
-            "cStandard": "c17",
-            "cppStandard": "c++17"
-        }
-    ],
-    "version": 4
+	"configurations": [
+		{
+			"name": "BuildingEscapeEditor Editor Linux Development (BuildingEscape)",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/home/grey/repos/BuildingEscape/BuildingEscape/.vscode/compileCommands_BuildingEscape.json"
+		}
+	]
 }

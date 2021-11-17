@@ -1,47 +1,47 @@
 [
-    {
-        "file": "C:\\\\Users\\\\Graham Pennington\\\\source\\\\Unreal Course\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\BuildingEscape.Build.cs",
-        "command": "cl.exe @\"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
-        "directory": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Source"
-    },
-    {
-        "file": "C:\\\\Users\\\\Graham Pennington\\\\source\\\\Unreal Course\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\BuildingEscape.cpp",
-        "command": "cl.exe @\"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
-        "directory": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Source"
-    },
-    {
-        "file": "C:\\\\Users\\\\Graham Pennington\\\\source\\\\Unreal Course\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\BuildingEscape.h",
-        "command": "cl.exe @\"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
-        "directory": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Source"
-    },
-    {
-        "file": "C:\\\\Users\\\\Graham Pennington\\\\source\\\\Unreal Course\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\BuildingEscapeGameModeBase.cpp",
-        "command": "cl.exe @\"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
-        "directory": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Source"
-    },
-    {
-        "file": "C:\\\\Users\\\\Graham Pennington\\\\source\\\\Unreal Course\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\BuildingEscapeGameModeBase.h",
-        "command": "cl.exe @\"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
-        "directory": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Source"
-    },
-    {
-        "file": "c:\\\\Users\\\\Graham Pennington\\\\source\\\\Unreal Course\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\WorldPosition.h",
-        "command": "cl.exe @\"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
-        "directory": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Source"
-    },
-    {
-        "file": "c:\\\\Users\\\\Graham Pennington\\\\source\\\\Unreal Course\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\WorldPosition.cpp",
-        "command": "cl.exe @\"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
-        "directory": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Source"
-    },
-    {
-        "file": "c:\\\\Users\\\\Graham Pennington\\\\source\\\\Unreal Course\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\OpenDoor.h",
-        "command": "cl.exe @\"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
-        "directory": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Source"
-    },
-    {
-        "file": "c:\\\\Users\\\\Graham Pennington\\\\source\\\\Unreal Course\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\OpenDoor.cpp",
-        "command": "cl.exe @\"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
-        "directory": "C:\\Program Files\\Epic Games\\UE_5.0EA\\Engine\\Source"
-    }
+	{
+		"file": "/home/grey/repos/BuildingEscape/BuildingEscape/Source/BuildingEscape/BuildingEscape.Build.cs",
+		"command": "cl.exe @\"/home/grey/repos/BuildingEscape/BuildingEscape/.vscode/compileCommands_BuildingEscape/BuildingEscape.161.rsp\"",
+		"directory": "/home/grey/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/grey/repos/BuildingEscape/BuildingEscape/Source/BuildingEscape/BuildingEscape.cpp",
+		"command": "cl.exe @\"/home/grey/repos/BuildingEscape/BuildingEscape/.vscode/compileCommands_BuildingEscape/BuildingEscape.161.rsp\"",
+		"directory": "/home/grey/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/grey/repos/BuildingEscape/BuildingEscape/Source/BuildingEscape/BuildingEscape.h",
+		"command": "cl.exe @\"/home/grey/repos/BuildingEscape/BuildingEscape/.vscode/compileCommands_BuildingEscape/BuildingEscape.161.rsp\"",
+		"directory": "/home/grey/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/grey/repos/BuildingEscape/BuildingEscape/Source/BuildingEscape/BuildingEscapeGameModeBase.cpp",
+		"command": "cl.exe @\"/home/grey/repos/BuildingEscape/BuildingEscape/.vscode/compileCommands_BuildingEscape/BuildingEscape.161.rsp\"",
+		"directory": "/home/grey/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/grey/repos/BuildingEscape/BuildingEscape/Source/BuildingEscape/BuildingEscapeGameModeBase.h",
+		"command": "cl.exe @\"/home/grey/repos/BuildingEscape/BuildingEscape/.vscode/compileCommands_BuildingEscape/BuildingEscape.161.rsp\"",
+		"directory": "/home/grey/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/grey/repos/BuildingEscape/BuildingEscape/Source/BuildingEscape/OpenDoor.cpp",
+		"command": "cl.exe @\"/home/grey/repos/BuildingEscape/BuildingEscape/.vscode/compileCommands_BuildingEscape/BuildingEscape.161.rsp\"",
+		"directory": "/home/grey/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/grey/repos/BuildingEscape/BuildingEscape/Source/BuildingEscape/OpenDoor.h",
+		"command": "cl.exe @\"/home/grey/repos/BuildingEscape/BuildingEscape/.vscode/compileCommands_BuildingEscape/BuildingEscape.161.rsp\"",
+		"directory": "/home/grey/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/grey/repos/BuildingEscape/BuildingEscape/Source/BuildingEscape/WorldPosition.cpp",
+		"command": "cl.exe @\"/home/grey/repos/BuildingEscape/BuildingEscape/.vscode/compileCommands_BuildingEscape/BuildingEscape.161.rsp\"",
+		"directory": "/home/grey/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/grey/repos/BuildingEscape/BuildingEscape/Source/BuildingEscape/WorldPosition.h",
+		"command": "cl.exe @\"/home/grey/repos/BuildingEscape/BuildingEscape/.vscode/compileCommands_BuildingEscape/BuildingEscape.161.rsp\"",
+		"directory": "/home/grey/UE5/Engine/Source"
+	}
 ]

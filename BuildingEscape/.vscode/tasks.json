@@ -2,435 +2,718 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "BuildingEscape Win64 Debug Build",
+			"label": "BuildingEscape Linux Debug Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"BuildingEscape",
-				"Win64",
+				"Linux",
 				"Debug",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscape Win64 Debug Rebuild",
+			"label": "BuildingEscape Linux Debug Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"BuildingEscape",
-				"Win64",
+				"Linux",
 				"Debug",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"BuildingEscape Win64 Debug Clean"
+				"BuildingEscape Linux Debug Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscape Win64 Debug Clean",
+			"label": "BuildingEscape Linux Debug Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"BuildingEscape",
-				"Win64",
+				"Linux",
 				"Debug",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"DebugGame",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscape Win64 DebugGame Build",
+			"label": "BuildingEscape Linux DebugGame Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"BuildingEscape",
-				"Win64",
+				"Linux",
 				"DebugGame",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
-			}
-		},
-		{
-			"label": "BuildingEscape Win64 DebugGame Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscape",
-				"Win64",
-				"DebugGame",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"BuildingEscape Win64 DebugGame Clean"
+				"BuildingEscape Linux DebugGame Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscape Win64 DebugGame Clean",
+			"label": "BuildingEscape Linux DebugGame Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"BuildingEscape",
-				"Win64",
+				"Linux",
 				"DebugGame",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"Development",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscape Win64 Development Build",
+			"label": "BuildingEscape Linux Development Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"BuildingEscape",
-				"Win64",
+				"Linux",
 				"Development",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
-			}
-		},
-		{
-			"label": "BuildingEscape Win64 Development Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscape",
-				"Win64",
-				"Development",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"BuildingEscape Win64 Development Clean"
+				"BuildingEscape Linux Development Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscape Win64 Development Clean",
+			"label": "BuildingEscape Linux Development Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"BuildingEscape",
-				"Win64",
+				"Linux",
 				"Development",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscape Win64 Shipping Build",
+			"label": "BuildingEscape Linux Shipping Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"BuildingEscape",
-				"Win64",
+				"Linux",
 				"Shipping",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscape Win64 Shipping Rebuild",
+			"label": "BuildingEscape Linux Shipping Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"BuildingEscape",
-				"Win64",
+				"Linux",
 				"Shipping",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"BuildingEscape Win64 Shipping Clean"
+				"BuildingEscape Linux Shipping Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscape Win64 Shipping Clean",
+			"label": "BuildingEscape Linux Shipping Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"BuildingEscape",
-				"Win64",
+				"Linux",
 				"Shipping",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscape Win64 Test Build",
+			"label": "BuildingEscape Linux Test Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"BuildingEscape",
-				"Win64",
+				"Linux",
 				"Test",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscape Win64 Test Rebuild",
+			"label": "BuildingEscape Linux Test Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"BuildingEscape",
-				"Win64",
+				"Linux",
 				"Test",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"BuildingEscape Win64 Test Clean"
+				"BuildingEscape Linux Test Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscape Win64 Test Clean",
+			"label": "BuildingEscape Linux Test Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"BuildingEscape",
-				"Win64",
+				"Linux",
 				"Test",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscape LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"LinuxAArch64",
+				"Debug",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscapeEditor Win64 Debug Build",
+			"label": "BuildingEscape LinuxAArch64 Debug Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
-				"BuildingEscapeEditor",
-				"Win64",
+				"BuildingEscape",
+				"LinuxAArch64",
 				"Debug",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
-			}
-		},
-		{
-			"label": "BuildingEscapeEditor Win64 Debug Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscapeEditor",
-				"Win64",
-				"Debug",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"BuildingEscapeEditor Win64 Debug Clean"
+				"BuildingEscape LinuxAArch64 Debug Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscapeEditor Win64 Debug Clean",
+			"label": "BuildingEscape LinuxAArch64 Debug Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
-				"BuildingEscapeEditor",
-				"Win64",
+				"BuildingEscape",
+				"LinuxAArch64",
 				"Debug",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscape LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscapeEditor Win64 DebugGame Build",
+			"label": "BuildingEscape LinuxAArch64 DebugGame Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
-				"BuildingEscapeEditor",
-				"Win64",
+				"BuildingEscape",
+				"LinuxAArch64",
 				"DebugGame",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
-			}
-		},
-		{
-			"label": "BuildingEscapeEditor Win64 DebugGame Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscapeEditor",
-				"Win64",
-				"DebugGame",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"BuildingEscapeEditor Win64 DebugGame Clean"
+				"BuildingEscape LinuxAArch64 DebugGame Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscapeEditor Win64 DebugGame Clean",
+			"label": "BuildingEscape LinuxAArch64 DebugGame Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
-				"BuildingEscapeEditor",
-				"Win64",
+				"BuildingEscape",
+				"LinuxAArch64",
 				"DebugGame",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscape LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"LinuxAArch64",
+				"Development",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscapeEditor Win64 Development Build",
+			"label": "BuildingEscape LinuxAArch64 Development Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
-				"BuildingEscapeEditor",
-				"Win64",
+				"BuildingEscape",
+				"LinuxAArch64",
 				"Development",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
-			}
-		},
-		{
-			"label": "BuildingEscapeEditor Win64 Development Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscapeEditor",
-				"Win64",
-				"Development",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"BuildingEscapeEditor Win64 Development Clean"
+				"BuildingEscape LinuxAArch64 Development Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
 			}
 		},
 		{
-			"label": "BuildingEscapeEditor Win64 Development Clean",
+			"label": "BuildingEscape LinuxAArch64 Development Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
-				"BuildingEscapeEditor",
-				"Win64",
+				"BuildingEscape",
+				"LinuxAArch64",
 				"Development",
-				"C:\\Users\\Graham Pennington\\source\\Unreal Course\\BuildingEscape\\BuildingEscape.uproject",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscape LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0EA"
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscape LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscape LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscape LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"LinuxAArch64",
+				"Test",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscape LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"LinuxAArch64",
+				"Test",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscape LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"LinuxAArch64",
+				"Test",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"Debug",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"Debug",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscapeEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"Debug",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscapeEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"Development",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"Development",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscapeEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"Development",
+				"/home/grey/repos/BuildingEscape/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/grey/UE5"
 			}
 		}
 	]

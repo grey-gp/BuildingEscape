@@ -1,0 +1,8 @@
+-include "/home/grey/UE5/Engine/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/TraceLog/Definitions.h"
+-I"/home/grey/UE5/Engine/Source"
+-I"/home/grey/UE5/Engine/Source/Runtime/TraceLog/Private"
+-I"/home/grey/UE5/Engine/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/TraceLog"
+-I"/home/grey/UE5/Engine/Source/Runtime"
+-I"/home/grey/UE5/Engine/Source/Runtime/TraceLog/Public"
+-I"/home/grey/UE5/Engine/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Core"
+-I"/home/grey/UE5/Engine/Source/Runtime/Core/Public"
